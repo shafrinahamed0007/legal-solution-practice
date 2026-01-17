@@ -28,7 +28,7 @@
 
       <!-- Hero Section -->
       <section
-        class="bg-[url('./images/banner.png')] h-[550px] mt-10 justify-items-center place-content-center"
+        class="bg-[linear-gradient(to_bottom,rgba(17,17,17,0.9),rgba(17,17,17,0.7)),url('./images/banner.png')] h-[550px] mt-10 justify-items-center place-content-center rounded-xl"
       >
         <div class="w-[692px] h-[250px]">
           <!-- Hero Banner Content Section -->
@@ -44,15 +44,21 @@
           </div>
 
           <!-- Subscribe Banner Section -->
-          <div class="mt-[32px]">
-            <form class="gap-12">
-              <input class="text-[#A0A0A0] pl-5 w-[500px] h-16 bg-white rounded-md " type="text" placeholder="Search your services">
+          <div class="mt-[32px] flex gap-6">
+            <div>
+              <input
+                class="text-[#A0A0A0] pl-5 w-[500px] h-16 bg-white rounded-md"
+                type="text"
+                placeholder="Search your services"
+              />
+            </div>
+            <div>
               <button
                 class="bg-[#B68C5A] rounded-lg text-white py-[17px] px-[40px] text-2xl"
               >
                 Search
               </button>
-            </form>
+            </div>
           </div>
         </div>
       </section>

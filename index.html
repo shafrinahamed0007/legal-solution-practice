@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legal Solutions</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <link rel="stylesheet" href="./google-font.css" />
   </head>
-  <body class="ml-[150px] mr-150px] mt-[70px] w-[1170px]">
+  <body class="lg:ml-[150px] lg:mr-150px] lg:mt-[70px] lg:w-[1170px] w-full">
     <!-- Header Section Start Here -->
     <header>
       <!-- Navbar Section Start Here -->
-      <nav class="flex place-content-between">
+      <nav class="lg:flex place-content-between hidden">
         <img src="./images/logo.png" alt="" />
 
-        <ul class="flex gap-8 mt-3">
+        <ul class="lg:flex gap-8 mt-3">
           <li>Home</li>
           <li>Services</li>
           <li>Cases</li>
@@ -33,7 +43,9 @@
         <div class="w-[692px] h-[250px]">
           <!-- Hero Banner Content Section -->
           <div class="grid gap-6">
-            <h1 class="text-white font-extrabold text-6xl text-center">
+            <h1
+              class="text-white font-extrabold text-6xl text-center garamond color"
+            >
               We Provide Effective Legal Solutions
             </h1>
             <p class="text-white text-base text-center">
@@ -65,7 +77,116 @@
     </header>
 
     <!-- Main Section Start Here -->
-    <main></main>
+    <main>
+      <!-- The Legal Practice Area -->
+      <section class="mt-[120px] text-center justify-items-center">
+        <!-- Legal practice Area Content Section -->
+        <div class="w-[700px] justify-items-center">
+          <h1 class="garamond text-4xl">The Legal Practice Area</h1>
+          <p class="text-[#707070]">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+
+        <!-- Legal Practice Section -->
+
+        <div class="mb-10 grid grid-cols-3 mt-16">
+          <div
+            class="border-2 border-[#E7E7E7] justify-items-center p-16 gap-4 grid"
+          >
+            <div>
+              <img src="./images/business.png" alt="" />
+            </div>
+            <div class="gap-3 grid">
+              <h1 class="garamond font-extrabold text-3xl">Business Law</h1>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="border-2 border-[#E7E7E7] bg-gray-200 justify-items-center p-16 gap-4 grid"
+          >
+            <div>
+              <img src="./images/criminal.png" />
+            </div>
+            <div class="gap-3 grid">
+              <h1 class="garamond font-extrabold text-3xl">Criminal Law</h1>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+            </div>
+          </div>
+          <div
+            class="border-2 border-[#E7E7E7] justify-items-center p-16 gap-4 grid"
+          >
+            <div>
+              <img src="./images/child.png" alt="" />
+            </div>
+            <div class="gap-3 grid">
+              <h1 class="garamond font-extrabold text-3xl">Child Support</h1>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+            </div>
+          </div>
+          <div
+            class="border-2 border-[#E7E7E7] justify-items-center p-16 gap-4 grid"
+          >
+            <div>
+              <img src="./images/education.png" alt="" />
+            </div>
+            <div class="gap-3 grid">
+              <h1 class="garamond font-extrabold text-3xl">Education Law</h1>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+            </div>
+          </div>
+          <div
+            class="border-2 border-[#E7E7E7] justify-items-center p-16 gap-4 grid"
+          >
+            <div>
+              <img src="./images/divorce.png" alt="" />
+            </div>
+            <div class="gap-3 grid">
+              <h1 class="garamond font-extrabold text-3xl">Divorce Law</h1>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+            </div>
+          </div>
+          <div
+            class="border-2 border-[#E7E7E7] justify-items-center p-16 gap-4 grid"
+          >
+            <div>
+              <img src="./images/tax.png" alt="" />
+            </div>
+            <div class="gap-3 grid">
+              <h1 class="garamond font-extrabold text-3xl">Tax Law</h1>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer Start Here -->
     <footer></footer>
